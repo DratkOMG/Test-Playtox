@@ -1,0 +1,77 @@
+2024-03-21 17:33:39 INFO  TestPlaytoxApplication:50 - Starting TestPlaytoxApplication using Java 21 with PID 14368 (D:\Code\TestPlaytox\target\classes started by DratkOMG in D:\Code\TestPlaytox)
+2024-03-21 17:33:39 INFO  TestPlaytoxApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-03-21 17:33:39 INFO  TestPlaytoxApplication:56 - Started TestPlaytoxApplication in 0.589 seconds (process running for 1.07)
+2024-03-21 17:33:39 INFO  TransferService:34 - Transfer 8949 from 0 to 2 (0 have 8043, 2 have 18949))
+2024-03-21 17:33:39 INFO  TransferService:34 - Transfer 7873 from 9 to 6 (9 have 2302, 6 have 10881))
+2024-03-21 17:33:39 INFO  TransferService:34 - Transfer 4217 from 9 to 2 (9 have 10175, 2 have 23166))
+2024-03-21 17:33:39 INFO  TransferService:34 - Transfer 4323 from 7 to 3 (7 have 1285, 3 have 14323))
+2024-03-21 17:33:39 INFO  TransferService:34 - Transfer 4392 from 7 to 9 (7 have 1285, 9 have 14392))
+2024-03-21 17:33:39 INFO  TransferService:34 - Transfer 2496 from 3 to 8 (3 have 11827, 8 have 12496))
+2024-03-21 17:33:39 INFO  TransferService:34 - Transfer 6992 from 6 to 0 (6 have 3008, 0 have 16992))
+2024-03-21 17:33:39 INFO  TransferService:34 - Transfer 4159 from 3 to 8 (3 have 7668, 8 have 16655))
+2024-03-21 17:33:39 ERROR TransferService:38 - An error occurred: You cant transfer 6305, you only have 1285
+com.example.testplaytox.exception.BadRequestException: You cant transfer 6305, you only have 1285
+	at com.example.testplaytox.services.TransferService.transfer(TransferService.java:28) ~[classes/:?]
+	at com.example.testplaytox.TestPlaytoxApplication.lambda$main$0(TestPlaytoxApplication.java:40) ~[classes/:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-03-21 17:33:40 INFO  TransferService:34 - Transfer 1833 from 9 to 0 (9 have 469, 0 have 9876))
+2024-03-21 17:33:40 INFO  TransferService:34 - Transfer 7578 from 4 to 1 (4 have 2422, 1 have 17578))
+2024-03-21 17:33:40 INFO  TransferService:34 - Transfer 2548 from 3 to 8 (3 have 5120, 8 have 19203))
+2024-03-21 17:33:41 INFO  TransferService:34 - Transfer 8884 from 1 to 3 (1 have 8694, 3 have 14004))
+2024-03-21 17:33:41 ERROR TransferService:38 - An error occurred: You cant transfer 3165, you only have 2422
+com.example.testplaytox.exception.BadRequestException: You cant transfer 3165, you only have 2422
+	at com.example.testplaytox.services.TransferService.transfer(TransferService.java:28) ~[classes/:?]
+	at com.example.testplaytox.TestPlaytoxApplication.lambda$main$0(TestPlaytoxApplication.java:40) ~[classes/:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-03-21 17:33:41 INFO  TransferService:34 - Transfer 4943 from 1 to 6 (1 have 3751, 6 have 15824))
+2024-03-21 17:33:41 INFO  TransferService:34 - Transfer 8195 from 0 to 2 (0 have 1681, 2 have 31361))
+2024-03-21 17:33:41 ERROR TransferService:38 - An error occurred: You cant transfer 7223, you only have 1681
+com.example.testplaytox.exception.BadRequestException: You cant transfer 7223, you only have 1681
+	at com.example.testplaytox.services.TransferService.transfer(TransferService.java:28) ~[classes/:?]
+	at com.example.testplaytox.TestPlaytoxApplication.lambda$main$0(TestPlaytoxApplication.java:40) ~[classes/:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-03-21 17:33:41 ERROR TransferService:38 - An error occurred: You cant transfer 8006, you only have 3751
+com.example.testplaytox.exception.BadRequestException: You cant transfer 8006, you only have 3751
+	at com.example.testplaytox.services.TransferService.transfer(TransferService.java:28) ~[classes/:?]
+	at com.example.testplaytox.TestPlaytoxApplication.lambda$main$0(TestPlaytoxApplication.java:40) ~[classes/:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-03-21 17:33:41 INFO  TransferService:34 - Transfer 6768 from 3 to 7 (3 have 7236, 7 have 8053))
+2024-03-21 17:33:41 ERROR TransferService:38 - An error occurred: You cant transfer 4477, you only have 2422
+com.example.testplaytox.exception.BadRequestException: You cant transfer 4477, you only have 2422
+	at com.example.testplaytox.services.TransferService.transfer(TransferService.java:28) ~[classes/:?]
+	at com.example.testplaytox.TestPlaytoxApplication.lambda$main$0(TestPlaytoxApplication.java:40) ~[classes/:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-03-21 17:33:42 INFO  TransferService:34 - Transfer 9392 from 5 to 8 (5 have 608, 8 have 28595))
+2024-03-21 17:33:42 ERROR TransferService:38 - An error occurred: You cant transfer 8659, you only have 8053
+com.example.testplaytox.exception.BadRequestException: You cant transfer 8659, you only have 8053
+	at com.example.testplaytox.services.TransferService.transfer(TransferService.java:28) ~[classes/:?]
+	at com.example.testplaytox.TestPlaytoxApplication.lambda$main$0(TestPlaytoxApplication.java:40) ~[classes/:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-03-21 17:33:42 INFO  TransferService:34 - Transfer 2259 from 2 to 8 (2 have 29102, 8 have 30854))
+2024-03-21 17:33:42 ERROR TransferService:38 - An error occurred: You cant transfer 7924, you only have 469
+com.example.testplaytox.exception.BadRequestException: You cant transfer 7924, you only have 469
+	at com.example.testplaytox.services.TransferService.transfer(TransferService.java:28) ~[classes/:?]
+	at com.example.testplaytox.TestPlaytoxApplication.lambda$main$0(TestPlaytoxApplication.java:40) ~[classes/:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-03-21 17:33:43 ERROR TransferService:38 - An error occurred: You cant transfer 6160, you only have 2422
+com.example.testplaytox.exception.BadRequestException: You cant transfer 6160, you only have 2422
+	at com.example.testplaytox.services.TransferService.transfer(TransferService.java:28) ~[classes/:?]
+	at com.example.testplaytox.TestPlaytoxApplication.lambda$main$0(TestPlaytoxApplication.java:40) ~[classes/:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-03-21 17:33:43 ERROR TransferService:38 - An error occurred: You cant transfer 2300, you only have 608
+com.example.testplaytox.exception.BadRequestException: You cant transfer 2300, you only have 608
+	at com.example.testplaytox.services.TransferService.transfer(TransferService.java:28) ~[classes/:?]
+	at com.example.testplaytox.TestPlaytoxApplication.lambda$main$0(TestPlaytoxApplication.java:40) ~[classes/:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-03-21 17:33:43 INFO  TransferService:34 - Transfer 3727 from 2 to 4 (2 have 25375, 4 have 6149))
+2024-03-21 17:33:43 ERROR TransferService:38 - An error occurred: You cant transfer 3866, you only have 1681
+com.example.testplaytox.exception.BadRequestException: You cant transfer 3866, you only have 1681
+	at com.example.testplaytox.services.TransferService.transfer(TransferService.java:28) ~[classes/:?]
+	at com.example.testplaytox.TestPlaytoxApplication.lambda$main$0(TestPlaytoxApplication.java:40) ~[classes/:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-03-21 17:33:43 INFO  TransferService:34 - Transfer 5420 from 7 to 4 (7 have 2633, 4 have 11569))
+2024-03-21 17:33:44 ERROR TransferService:38 - An error occurred: You cant transfer 9767, you only have 608
+com.example.testplaytox.exception.BadRequestException: You cant transfer 9767, you only have 608
+	at com.example.testplaytox.services.TransferService.transfer(TransferService.java:28) ~[classes/:?]
+	at com.example.testplaytox.TestPlaytoxApplication.lambda$main$0(TestPlaytoxApplication.java:40) ~[classes/:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
